@@ -26,10 +26,10 @@ After downloading the srt-py source repository, open up a command prompt or term
 conda install conda-build conda-verify
 ```
 
-Build and install the conda package
+Build and install the conda package (including conda-forge channel)
 
 ```
-conda-build srt-py
+conda build -c conda-forge srt-py
 conda install -c file://${CONDA_PREFIX}/conda-bld/ srt-py
 ```
 
