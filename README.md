@@ -50,6 +50,7 @@ Before using the software, you must create a "config" directory, which should fo
 Once installed, you can start the SRT Daemon and SRT Dashboard by running by executing (for the default runtime options):
 
 ```
+pip install --upgrade --force-reinstall dash
 srt_runner.py --config_dir=PATH_TO_CONFIG_DIR
 ```
 
