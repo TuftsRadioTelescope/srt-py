@@ -30,7 +30,7 @@ Build and install the conda package (including conda-forge channel)
 
 ```
 conda build -c conda-forge srt-py
-conda install -c file://${CONDA_PREFIX}/conda-bld/ srt-py
+conda install -c file://${CONDA_PREFIX}/conda-bld/ srt-py -c conda-forge srt-py
 ```
 
 ### Building the Pip Package Locally (Not Recommended due to Dependency Issues)
